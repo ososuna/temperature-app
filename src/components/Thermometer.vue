@@ -16,5 +16,12 @@ const getSensorData = async () => {
 </script>
 
 <template>
-<h1>Hello world</h1>  
+<div class="container text-light">
+  <div class="row">
+    <div class="col-12">
+      <h1>{{ data.temperature }} °C</h1>
+      <h1>{{ data.humidity }} %</h1>
+    </div>
+  </div>
+</div>
 </template>

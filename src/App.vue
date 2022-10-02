@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Thermometer from './components/Thermometer.vue'
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
-  <Thermometer msg="Vite + Vue" />
+<HomeView />
 </template>
 
 <style>
@@ -15,3 +15,4 @@ import Thermometer from './components/Thermometer.vue'
     color: #2c3e50;
   }
   </style>
+  
